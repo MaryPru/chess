@@ -1,0 +1,1207 @@
+.logo {
+    max-height: 36px;
+}
+
+.container {
+    max-width: 1248px;
+    margin: 0 auto;
+    padding: 0 12px;
+    position: relative;
+}
+
+.container-lg {
+    max-width: 1648px;
+    padding: 0 12px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    padding: 26px 0;
+    position: relative;
+    z-index: 6;
+}
+
+.club {
+    background-image: url("../images/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -98px;
+    position: relative;
+}
+
+.club__content {
+    max-width: 542px;
+    padding: 124px 0 132px;
+    margin-left: 195px;
+    position: relative;
+    z-index: 3;
+}
+
+.club__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.club__images {
+    width: 750px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.club__images-chess {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.chess-king {
+    max-width: 103px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 295px;
+}
+
+.chess {
+    max-width: 113px;
+    width: 100%;
+    position: absolute;
+    top: 188px;
+    right: 290px;
+}
+
+.club__city {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    bottom: 0;
+    max-height: 440px;
+    height: 100%;
+}
+
+.chess-horse {
+    max-width: 194px;
+    width: 100%;
+    position: absolute;
+    right: 474px;
+    bottom: 0;
+}
+
+.chess-little {
+    max-width: 82px;
+    width: 100%;
+    position: absolute;
+    right: 193px;
+    bottom: 18px;
+}
+
+.club__city .city {
+    height: 100%;
+}
+
+.club__images-circle {
+    position: absolute;
+    top: -80px;
+    left: -70px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.circle__wrapper {
+    width: 700px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.image1, .image2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.image1 {
+    z-index: 1;
+    inset: 0;
+}
+
+.image2 {
+    z-index: 2;
+    top: -60px;
+    left: -60px;
+    animation: rotate 30s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center center;
+    width: 778px;
+    height: 778px;
+}
+
+.club__slogan {
+    margin-bottom: 24px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+.club__slogan span {
+    display: flex;
+    justify-content: center;
+}
+
+.club__slogan span:last-of-type {
+    justify-content: end;
+}
+
+.club__description {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+}
+
+.club__buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 40px;
+}
+
+.button {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    border-radius: 66px;
+    padding: 14px 20px;
+    border: 1px solid transparent;
+    transition: 400ms all;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button.button--primary {
+    background: #1F1F1F;
+    color: #FFFFFF;
+}
+
+.button.button--primary:hover {
+    background: #FBCE51;
+    color: #1F1F1F;
+}
+
+.button.button--secondary {
+    background: transparent;
+    border-color: #1F1F1F;
+    color: #1F1F1F;
+}
+
+.button.button--secondary:hover {
+    background: #1F1F1F;
+    color: #FFFFFF;
+}
+
+.info {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.info__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+    margin-bottom: 64px;
+}
+
+.info__title {
+    font-size: 36px;
+    line-height: 135%;
+    color: #313131;
+    font-weight: 400;
+    flex: 0 0 62%;
+    text-transform: uppercase;
+}
+
+.info__title span {
+    font-weight: 600;
+    color: #F54932;
+}
+
+.info__title--mobile {
+    display: none;
+}
+
+.event {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 20px;
+
+}
+
+.event__image {
+    margin-top: -45px;
+    margin-left: -45px;
+    min-width: 550px;
+}
+
+.event__image img {
+    width: 100%;
+}
+
+.event__title {
+    margin-bottom: 35px;
+}
+
+.event-table {
+    font-size: 20px;
+    font-family: "Golos Text", sans-serif;
+}
+
+.event-table__row {
+    border-bottom: 1px solid #D0D0D0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 12px;
+    column-gap: 16px;
+}
+
+.event-table__label {
+    font-weight: 400;
+    color: #313131;
+    opacity: 0.7;
+    padding: 16px 0;
+}
+
+.event-table__value {
+    font-weight: 600;
+    color: #313131;
+    padding: 16px;
+    border-left: 1px solid #D0D0D0;
+}
+
+.event__link {
+    color: #3057A2;
+    font-size: 20px;
+    font-family: "Golos Text", sans-serif;
+    transition: 400ms;
+    margin-top: 38px;
+    display: flex;
+}
+
+.old-price {
+    color: #313131;
+    text-decoration: line-through;
+    text-decoration-color: #F54932;
+    margin-right: 14px;
+    font-weight: 600;
+}
+
+.stages-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.stage-card {
+    background-image: url("../images/card-back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: #313131;
+    font-family: "Golos Text", sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 16px;
+}
+
+.stage-card:nth-child(3) {
+    grid-column: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.stage-card:nth-child(7) {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 3;
+    position: relative;
+}
+
+.stage-card__number {
+    flex: 0 0 36px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 36px;
+}
+
+.stage-card__description {
+    max-width: 302px;
+}
+
+.stage-card:nth-child(7) .stage-card__description {
+    max-width: 446px;
+}
+
+.stage-card__image {
+    position: absolute;
+    right: -60px;
+    bottom: 20px;
+    z-index: 3;
+    opacity: 1;
+    animation: plane-fly 6s linear infinite;
+    transform-origin: center;
+    transition: 400ms all;
+}
+
+.stages-section__title {
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 120%;
+    color: #313131;
+    margin-bottom: 54px;
+    position: relative;
+    max-width: 750px;
+    text-transform: uppercase;
+}
+
+.stages-section__title span {
+    position: absolute;
+    bottom: 8px;
+    right: 24%;
+    color: #3057A2;
+    font-size: 20px;
+    line-height: 120%;
+    font-family: "Golos Text", sans-serif;
+    max-width: 280px;
+    text-transform: capitalize;
+}
+
+.stages-grid + .swiper-navigation {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    bottom: -38px;
+    min-width: 250px;
+    transform: translateX(-50%);
+    left: 50%;
+    display: none;
+}
+
+.stages-grid + .swiper-navigation .swiper-button {
+    position: static;
+    margin-top: 0;
+}
+
+.stages-grid + .swiper-navigation .swiper-pagination {
+    position: static;
+    width: max-content;
+}
+
+.swiper-navigation .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    margin: 0 6px;
+    background: #D9D9D9;
+}
+
+.swiper-navigation .swiper-pagination-bullet-active {
+    background: #313131;
+}
+
+.about {
+    margin: 100px 0;
+    position: relative;
+}
+
+.about__title {
+    font-size: 54px;
+    color: #313131;
+    line-height: 1;
+    margin-bottom: -50px;
+    text-transform: uppercase;
+}
+
+.card {
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Golos Text", sans-serif;
+}
+
+.card__ava-wrapper {
+    width: 320px;
+    height: 320px;
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card__ava-wrapper:before {
+    content: '';
+    background: #E6D8C3;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.card__ava-wrapper img {
+    width: 90%;
+    position: relative;
+    z-index: 2;
+    transition: 400ms all;
+}
+
+.card:hover .card__ava-wrapper img {
+    transform: scale(1.2);
+}
+
+.card__title {
+    font-size: 24px;
+    color: #313131;
+    font-weight: 600;
+
+    margin: 28px 0 6px;
+    text-align: center;
+}
+
+.card__link {
+    color: #3057A2;
+    padding: 12px;
+    border: 1px solid #3057A2;
+    border-radius: 62px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    transition: 400ms all;
+}
+
+.card__link:hover {
+    color: #ffffff;
+    background: #3057A2;
+}
+
+.card__subtitle {
+    color: #151515;
+    font-size: 20px;
+    opacity: 60%;
+    margin-bottom: 20px;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 110px;
+}
+
+.about .swiper-navigation {
+    position: absolute;
+    right: 0;
+    top: 4px;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.swiper-button {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #313131;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.swiper-counter {
+    color: #313131;
+    font-size: 16px;
+    font-family: "Golos Text", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.total-slides.disabled {
+    opacity: 0.6;
+}
+
+.footer {
+    background: #E9DED4;
+    color: #313131;
+    font-size: 16px;
+    line-height: 120%;
+    font-family: "Golos Text", sans-serif;
+    padding: 40px 0 80px;
+}
+
+.footer p {
+    opacity: 0.6;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes plane-fly {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-5px) rotate(-2deg);
+    }
+    50% {
+        transform: translateY(0) rotate(0deg);
+    }
+    75% {
+        transform: translateY(5px) rotate(2deg);
+    }
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+}
+
+.stage-card__image--desktop {
+    display: none;
+}
+
+@media screen and (max-width: 1500px) {
+    .club__city {
+        width: 110%;
+        height: auto;
+        left: -3%;
+    }
+
+    .chess {
+        top: 14vw;
+        right: 16vw;
+    }
+
+    .chess-king {
+        left: 5vw;
+        top: 21vw;
+    }
+
+    .club__images-circle {
+        left: 50px;
+    }
+
+    .club__content {
+        margin-left: 6vw;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .chess {
+        top: 17vw;
+    }
+
+    .chess-king {
+        top: 21vw;
+    }
+
+    .chess-king {
+        left: 9vw;
+        top: 24vw;
+    }
+
+    .club__city {
+        width: 117%;
+        height: auto;
+        left: -8%;
+    }
+
+    .club__content {
+        margin-left: 4vw;
+    }
+
+    .image2 {
+        width: 580px;
+        height: 580px;
+        top: -40px;
+        left: -40px;
+    }
+
+    .circle__wrapper {
+        width: 500px;
+        height: 500px;
+    }
+
+    .club__images-circle {
+        top: -32px;
+    }
+
+    .club__images-circle {
+        left: 200px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .club__content {
+        margin-left: 0;
+    }
+
+    .club__slogan {
+        font-size: 44px;
+    }
+
+    .club__content {
+        max-width: 470px;
+    }
+
+    .marquee-content li {
+        font-size: 20px;
+    }
+
+    .info__title {
+        font-size: 34px;
+    }
+
+    .stages-section__title, .about__title {
+        font-size: 42px;
+    }
+
+    .chess-horse {
+        max-width: 150px;
+    }
+
+    .chess-little {
+        max-width: 65px;
+    }
+
+    .chess {
+        max-width: 95px;
+        top: calc(350px - 6vw);
+    }
+
+    .chess-king {
+        max-width: 88px;
+        left: unset;
+        right: 40vw;
+        top: calc(400px - 4vw);
+    }
+
+    .stage-card__image {
+        max-width: 330px;
+        bottom: 150px;
+    }
+
+    .stage-card:nth-child(7) .stage-card__description {
+        max-width: 100%;
+    }
+
+    .stages-section__title span {
+        right: 32%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .stage-card__image {
+        bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .club__content {
+        max-width: 390px;
+    }
+
+    .club__buttons {
+        grid-template-columns: 1fr;
+    }
+
+    .button {
+        flex-direction: row;
+        white-space: nowrap;
+        gap: 4px;
+    }
+
+    .chess-king {
+        top: calc(400px - -1vw);
+    }
+
+    .chess {
+        top: calc(350px - 3vw);
+    }
+
+    .event-table__row {
+        grid-template-columns: 1fr;
+    }
+
+    .event-table__value {
+        border-left: 1px solid transparent;
+        padding: 12px 0 16px;
+    }
+
+    .event-table__label {
+        padding: 0;
+    }
+
+    .info__heading {
+        flex-direction: column;
+    }
+
+    .info__title--desktop {
+        display: none;
+    }
+
+    .info__title--mobile {
+        display: block;
+    }
+
+    .event__image {
+        min-width: unset;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .stage-card__image--desktop {
+        display: none;
+    }
+
+    .stage-card__image--mobile {
+        display: block;
+    }
+
+    .stage-card__description {
+        max-width: 60%;
+    }
+
+    .stages-grid {
+        min-height: 300px;
+    }
+
+    .stage-card {
+        padding: 60px 20px;
+    }
+
+    .stage-card__image {
+        right: -8px;
+    }
+
+    .stages-grid + .swiper-navigation {
+        display: flex;
+    }
+
+    .stages {
+        margin-bottom: 150px;
+    }
+
+    .club__city {
+        width: 125%;
+        left: -16%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .club__slogan {
+        font-size: 38px;
+    }
+
+    .marquee-content li {
+        font-size: 18px;
+    }
+
+    .marquee-content {
+        gap: 12px;
+    }
+
+    .marquee {
+        padding: 2px;
+    }
+
+    .info__title {
+        font-size: 30px;
+    }
+
+    .stages-section__title, .about__title {
+        font-size: 38px;
+    }
+
+    .event {
+        grid-template-columns: 1fr;
+    }
+
+    .event-table__row {
+        gap: 0;
+    }
+
+    .club__content {
+        padding-bottom: 400px;
+    }
+
+    .circle__wrapper {
+        width: 400px;
+        height: 400px;
+
+    }
+
+    .club__images-circle {
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .image2 {
+        width: 470px;
+        height: 470px;
+        left: -35px;
+        top: -35px;
+    }
+
+    .club__images {
+        height: 100%;
+        width: 100%;
+    }
+
+    .club__content {
+        margin: 0 auto;
+    }
+
+    .club__city {
+        width: 150%;
+        left: -43%;
+    }
+
+    .chess {
+        top: calc(550px - 2vw);
+        right: 20vw;
+    }
+
+    .chess-king {
+        top: calc(560px - -10vw);
+        right: 56vw;
+    }
+
+    .club__slogan span:last-of-type {
+        justify-content: center;
+    }
+
+    .event-table__row:last-of-type {
+        border-bottom: none;
+    }
+
+    .event-table__label {
+        padding-top: 16px;
+    }
+
+    .stages-section__title span {
+        right: unset;
+        bottom: unset;
+        position: relative;
+        max-width: 335px;
+    }
+
+    .stages-section__title {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .stage-card__image {
+        bottom: 260px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .chess {
+        top: calc(550px - -4vw);
+    }
+
+    .chess-king {
+        top: calc(560px - -13vw);
+    }
+
+    .about .swiper-navigation {
+        top: unset;
+        bottom: 0;
+        transform: translateX(-50%);
+        right: unset;
+        left: 50%;
+    }
+
+    .swiper {
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .club__city {
+        width: 160%;
+        left: -53%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .club__city {
+        width: 170%;
+        left: -59%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .club__city {
+        width: 190%;
+        left: -73%;
+    }
+
+    .chess-horse {
+        max-width: 120px;
+        right: 30%;
+    }
+
+    .chess {
+        max-width: 80px;
+        top: 107vw;
+    }
+
+    .chess-king {
+        max-width: 80px;
+        top: 120vw;
+        right: 61vw;
+    }
+
+    .chess-little {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .club__slogan {
+        font-size: 36px;
+    }
+
+    .button {
+        padding: 18px;
+        width: 100%;
+    }
+
+    .circle__wrapper {
+        width: 285px;
+        height: 285px;
+    }
+
+    .marquee-content li {
+        font-size: 16px;
+    }
+
+    .marquee-content {
+        gap: 10px;
+    }
+
+    .marquee {
+        padding: 0;
+    }
+
+    .info__title {
+        font-size: 28px;
+    }
+
+    .stages-section__title, .about__title {
+        font-size: 36px;
+    }
+
+    .stages-grid {
+        font-size: 18px;
+    }
+
+    .footer {
+        padding: 40px 0 60px;
+    }
+
+    .image2 {
+        width: 330px;
+        height: 330px;
+        left: -23px;
+        top: -23px;
+    }
+
+    .club__content {
+        padding-bottom: 70vw;
+    }
+
+    .club__images-circle {
+        top: -11%;
+    }
+
+    .club__buttons {
+        gap: 14px;
+    }
+
+    .club__buttons {
+        margin-top: 32px;
+    }
+
+    .club__content {
+        max-width: 100%;
+    }
+
+    .chess-horse {
+        max-width: 76px;
+    }
+
+    .chess {
+        max-width: 46px;
+        top: calc(130vw + 5vh);
+    }
+
+    .chess-king {
+        max-width: 46px;
+        top: calc(145vw + 5vh);
+    }
+
+    .logo {
+        max-height: 32px;
+        max-width: 213px;
+    }
+
+    .header {
+        padding: 18px 0;
+    }
+
+    .info__heading {
+        gap: 24px;
+        margin-bottom: 34px;
+    }
+
+    .info__title {
+        margin-bottom: 0;
+    }
+
+    .info {
+        margin-top: 48px;
+        margin-bottom: 120px;
+    }
+
+    .event__image {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .event-table {
+        margin-top: 44px;
+    }
+
+    .swiper-button-next:after, .swiper-button-prev:after {
+        font-size: 14px;
+    }
+
+    .swiper-button {
+        width: 36px;
+        height: 36px;
+        position: relative;
+        top: unset;
+        left: unset;
+        right: unset;
+    }
+
+    .about .swiper-navigation {
+        justify-content: space-between;
+        width: 130px;
+    }
+
+    .swiper-counter {
+        align-items: start;
+        height: 85%;
+    }
+
+    .card__ava-wrapper {
+        width: 270px;
+        height: 270px;
+    }
+
+    .stage-card__description {
+        max-width: 100%;
+    }
+
+    .stages-section__title {
+        margin-bottom: 140px;
+    }
+
+    .stages-section__title span {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .stage-card__image {
+        bottom: unset;
+        right: 8px;
+        top: 190px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .chess {
+        top: 151vw;
+    }
+
+    .chess-king {
+        top: 163vw;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .club__description {
+        text-align: left;
+    }
+
+    .chess {
+        top: calc(140vw + 7vh);
+    }
+
+    .chess-king {
+        top: 163vw;
+    }
+
+    .club__city {
+        width: 220%;
+        left: -93%;
+    }
+}
