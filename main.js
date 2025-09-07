@@ -1,11 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    AOS.init({
-        offset: 0,
-        delay: 0,
-        duration: 1000,
-        easing: 'ease',
-        once: true,
-    });
     const root = document.documentElement;
     const marqueeElementsDisplayed = getComputedStyle(root).getPropertyValue("--marquee-elements-displayed");
 
